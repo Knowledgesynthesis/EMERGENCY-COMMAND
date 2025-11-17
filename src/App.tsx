@@ -12,9 +12,11 @@ import { SettingsPage } from '@/pages/SettingsPage';
 import { useStore } from '@/store';
 import { initializeUserProgress } from '@/store';
 import { conditions } from '@/data/conditions';
+import { cases } from '@/data/cases';
+import { assessments } from '@/data/assessments';
 
 function App() {
-  const { theme, setConditions } = useStore();
+  const { theme, setConditions, setCases, setAssessments } = useStore();
 
   useEffect(() => {
     // Apply theme to document
@@ -27,6 +29,8 @@ function App() {
 
     // Load conditions data
     setConditions(conditions);
+    setCases(cases);
+    setAssessments(assessments);
 
     // Set up online/offline listeners
     const handleOnline = () => useStore.getState().setOfflineMode(false);
@@ -39,7 +43,7 @@ function App() {
       window.removeEventListener('online', handleOnline);
       window.removeEventListener('offline', handleOffline);
     };
-  }, [setConditions]);
+  }, [setConditions, setCases, setAssessments]);
 
   return (
     <BrowserRouter>
