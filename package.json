@@ -1,7 +1,7 @@
 {
   "name": "emergency-command",
   "version": "1.0.0",
-  "description": "Mobile-first, offline-capable emergency medical training platform",
+  "description": "Emergency Command - Mobile-first, offline-capable emergency medical training platform",
   "type": "module",
   "scripts": {
     "dev": "vite",

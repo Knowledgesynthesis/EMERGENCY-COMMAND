@@ -11,7 +11,7 @@ export default defineConfig({
       includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
         name: 'Emergency Command',
-        short_name: 'EmergencyCmd',
+        short_name: 'Emergency Command',
         description: 'Emergency medical training platform',
         theme_color: '#0f172a',
         background_color: '#0f172a',
