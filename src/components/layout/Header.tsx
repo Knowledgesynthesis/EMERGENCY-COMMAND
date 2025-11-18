@@ -24,7 +24,7 @@ export function Header({ onMenuClick }: HeaderProps) {
           </Button>
           <div className="flex items-center gap-2">
             <Activity className="h-6 w-6 text-critical" />
-            <h1 className="text-xl font-bold">Emergency Command</h1>
+            <h1 className="text-xl font-bold">EmergentMD</h1>
           </div>
         </div>
 

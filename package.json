@@ -1,7 +1,7 @@
 {
-  "name": "emergency-command",
+  "name": "emergentmd",
   "version": "1.0.0",
-  "description": "Mobile-first, offline-capable emergency medical training platform",
+  "description": "EmergentMD - Mobile-first, offline-capable emergency medical training platform",
   "type": "module",
   "scripts": {
     "dev": "vite",
