@@ -51,7 +51,7 @@ export function HomePage() {
       {/* Hero Section */}
       <div className="text-center space-y-4">
         <h1 className="text-4xl md:text-5xl font-bold">
-          EmergentMD
+          Emergency Command
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
           Master emergency stabilization, escalation, and early management for time-critical presentations
@@ -135,7 +135,7 @@ export function HomePage() {
         <CardHeader>
           <CardTitle>Quick Start Guide</CardTitle>
           <CardDescription>
-            EmergentMD uses a systematic approach to emergency management
+            Emergency Command uses a systematic approach to emergency management
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-3">

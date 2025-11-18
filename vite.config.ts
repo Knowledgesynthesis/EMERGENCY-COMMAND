@@ -10,8 +10,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
-        name: 'EmergentMD',
-        short_name: 'EmergentMD',
+        name: 'Emergency Command',
+        short_name: 'Emergency Command',
         description: 'Emergency medical training platform',
         theme_color: '#0f172a',
         background_color: '#0f172a',

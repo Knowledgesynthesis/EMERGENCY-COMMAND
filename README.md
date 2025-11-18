@@ -1,4 +1,4 @@
-# EmergentMD
+# Emergency Command
 
 A mobile-first, offline-capable emergency medical training platform that teaches rapid pattern recognition, ABCs, initial stabilization, early diagnostic steps, critical escalation, and disposition reasoning for the most urgent presentations in acute care.
 
