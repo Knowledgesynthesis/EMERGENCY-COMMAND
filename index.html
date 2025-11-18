@@ -9,8 +9,23 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/manifest.json" />
     <title>Emergency Command - Emergency Medical Training Platform</title>
+    <script>
+      // Apply theme immediately to prevent flash
+      (function() {
+        try {
+          const stored = localStorage.getItem('emergency-command-storage');
+          const theme = stored ? JSON.parse(stored).state?.theme : 'dark';
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {
+          // Default to dark mode if error
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
   </head>
-  <body class="dark">
+  <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
